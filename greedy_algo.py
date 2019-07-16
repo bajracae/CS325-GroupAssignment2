@@ -12,7 +12,7 @@ while(i >= 0):
         coin_list.append(coin_types[i]);
     
     i -= 1  
-
+    
 print("Coins used:");
 for i in range(len(coin_list)):
     print(coin_list[i], end = " "); 

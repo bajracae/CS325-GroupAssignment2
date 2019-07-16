@@ -1,6 +1,6 @@
-change_val = 1.25;
+change_val = 40;
 
-coin_types = [.01, .05, .10, .25];
+coin_types = [1, 10, 25, 50];
 list_len = len(coin_types);
 
 coin_list = [];

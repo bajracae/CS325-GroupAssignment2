@@ -11,8 +11,13 @@ while(i >= 0):
         change_val -= coin_types[i];
         coin_list.append(coin_types[i]);
     
-    i -= 1
+    i -= 1  
 
+print("Coins used:");
 for i in range(len(coin_list)):
-    print(coin_list[i], end = " ");
+    print(coin_list[i], end = " "); 
+
+print("\n");
+
+print("Number of coins used:", len(coin_list));
 
